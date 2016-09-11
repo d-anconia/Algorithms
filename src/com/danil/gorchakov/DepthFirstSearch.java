@@ -1,11 +1,11 @@
 package com.danil.gorchakov;
 
 
-public class DepthFirtstSearch {
+public class DepthFirstSearch {
     private boolean [] marked;
     private int count;
 
-    public DepthFirtstSearch(Graph graph, int s){
+    public DepthFirstSearch(Graph graph, int s){
         marked = new boolean[graph.V()];
         dfs(graph,s);
     }
